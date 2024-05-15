@@ -26,10 +26,10 @@ Copy and paste the code block below into your readme to add the skills icon elem
 Change the `?i=js,html,css` to a list of your skills separated by ","s! You can find a full list of icons [here](#icons-list).
 
 ```md
-[![My Skills](https://skill-icons.malte-linke.workers.dev/icons?i=js,html,css,wasm)](https://skill-icons.malte-linke.workers.dev)
+[![My Skills](https://skill-icons.parzival.space/icons?i=js,html,css,wasm)](https://skill-icons.parzival.space)
 ```
 
-[![My Skills](https://skill-icons.malte-linke.workers.dev/icons?i=js,html,css,wasm)](https://skill-icons.malte-linke.workers.dev)
+[![My Skills](https://skill-icons.parzival.space/icons?i=js,html,css,wasm)](https://skill-icons.parzival.space)
 
 # Themed Icons
 
@@ -42,10 +42,10 @@ Change the `&theme=light` to either `dark` or `light`. The theme is the backgrou
 **Light Theme Example:**
 
 ```md
-[![My Skills](https://skill-icons.malte-linke.workers.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skill-icons.malte-linke.workers.dev)
+[![My Skills](https://skill-icons.parzival.space/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skill-icons.parzival.space)
 ```
 
-[![My Skills](https://skill-icons.malte-linke.workers.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skill-icons.malte-linke.workers.dev)
+[![My Skills](https://skill-icons.parzival.space/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skill-icons.parzival.space)
 
 # Icons Per Line
 
@@ -54,10 +54,10 @@ You can specify how many icons you would like per line! It's an optional argumen
 Change the `&perline=3` to any number between 1 and 50.
 
 ```md
-[![My Skills](https://skill-icons.malte-linke.workers.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skill-icons.malte-linke.workers.dev)
+[![My Skills](https://skill-icons.parzival.space/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skill-icons.parzival.space)
 ```
 
-[![My Skills](https://skill-icons.malte-linke.workers.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skill-icons.malte-linke.workers.dev)
+[![My Skills](https://skill-icons.parzival.space/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skill-icons.parzival.space)
 
 # Centering Icons
 
@@ -65,15 +65,15 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
 
 ```html
 <p align="center">
-  <a href="https://skill-icons.malte-linke.workers.dev">
-    <img src="https://skill-icons.malte-linke.workers.dev/icons?i=git,kubernetes,docker,c,vim" />
+  <a href="https://skill-icons.parzival.space">
+    <img src="https://skill-icons.parzival.space/icons?i=git,kubernetes,docker,c,vim" />
   </a>
 </p>
 ```
 
 <p align="center">
-  <a href="https://skill-icons.malte-linke.workers.dev">
-    <img src="https://skill-icons.malte-linke.workers.dev/icons?i=git,kubernetes,docker,c,vim" />
+  <a href="https://skill-icons.parzival.space">
+    <img src="https://skill-icons.parzival.space/icons?i=git,kubernetes,docker,c,vim" />
   </a>
 </p>
 
