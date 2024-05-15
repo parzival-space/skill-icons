@@ -1,11 +1,17 @@
-const fs = require('fs');
+const { readdirSync, mkdirSync, readFileSync, writeFileSync, cpSync, rmSync } = require("fs");
 
-const iconsDir = fs.readdirSync('./icons');
-const icons = {};
-for (const icon of iconsDir) {
-  const name = icon.replace('.svg', '').toLowerCase();
-  icons[name] = String(fs.readFileSync(`./icons/${icon}`));
+// build icon set
+const iconSet = {};
+for (const iconFile of readdirSync("./src/icons")) {
+  const iconName = iconFile.replace(".svg", "").toLocaleLowerCase();
+  iconSet[iconName] = String(readFileSync(`./src/icons/${iconFile}`));
 }
 
-if (!fs.existsSync('./dist')) fs.mkdirSync('./dist');
-fs.writeFileSync('./dist/icons.json', JSON.stringify(icons));
+// prepare dist dir
+rmSync("./dist", { recursive: true, force: true });
+mkdirSync("./dist", { recursive: true });
+
+// create files
+writeFileSync("./dist/icons.json", JSON.stringify(iconSet));
+cpSync("./src/worker", "./dist", { recursive: true });
+cpSync("./README.md", "./dist/README.md", { force: true });

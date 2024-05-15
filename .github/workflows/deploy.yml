@@ -1,0 +1,27 @@
+name: Deploy to Cloudflare Worker
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout Repository"
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: 'package.json'
+      - name: "Download Dependencies"
+        run: |
+          npm ci
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      - name: "Upload Pipeline Artifacts"
+        uses: actions/upload-artifact@v4
+        with:
+          name: worker
+          path: ./dist/*
