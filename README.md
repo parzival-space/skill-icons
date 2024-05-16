@@ -81,6 +81,11 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
 
 Here's a list of all the icons currently supported. Feel free to open an issue to suggest icons to add!
 
+<p align="center">
+  <img src="https://skill-icons.parzival.space/icons?i=all" alt="Full Icon List" />
+</p>
+
+<!--
 |      Icon ID       |                         Icon                          |
 | :----------------: | :---------------------------------------------------: |
 |     `ableton`      |    <img src="./src/icons/Ableton-Dark.svg" width="48">    |
@@ -319,6 +324,8 @@ Here's a list of all the icons currently supported. Feel free to open an issue t
 |       `yarn`       |     <img src="./src/icons/Yarn-Dark.svg" width="48">      |
 |       `yew`        |      <img src="./src/icons/Yew-Dark.svg" width="48">      |
 |       `zig`        |      <img src="./src/icons/Zig-Dark.svg" width="48">      |
+-->
+
 
 ---
 
