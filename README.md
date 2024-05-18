@@ -14,6 +14,13 @@
 - [Centering Icons](#centering-icons)
 - [Icons List](#icons-list)
 
+# Wait! This is the same as tandpfun/skill-icons?!
+No, not exactly.  
+I have created this fork as the original repository seems somewhat dead and I have added some additional skill icons.
+The original maintainers mentioned in their issue section the they are running out of space of their cloudflare workers.
+I plan on fixing this in the near future.  
+My goal is to add many more skill icons for everyone to use.
+
 # Example
 
 <p align="center"><img align="center" src="./.github/assets/example-dark.png#gh-dark-mode-only"/></p>
